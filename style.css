@@ -1,0 +1,139 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Styling the Header with Logo , Icons , Search Bar and Login and Sell Button*/
+
+.header {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Styling of Top Left Icons */
+
+.logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.car {
+    width: 35px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.c-1 {
+    font-size: 18x;
+    font-weight: 700;
+    margin-left: 350px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.property {
+    width: 35px;
+    height: 35;
+    margin-top: 12px;
+    position: absolute;
+    margin-left: 520px;
+}
+
+.p-1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 570px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+
+/*Styling the Search Bars */
+
+::placeholder {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+#country {
+    width: 22vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 150px;
+    background-image: url('/images/magnifier.jpg');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    background-position-x: 6px;
+    padding: 5px 65px;
+    margin-right: 30px;
+}
+
+#search {
+    width: 50vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 5px;
+    position: absolute;
+    background-image: url('/images/magnifier-2.JPG');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-y: px;
+    background-position-x: 1140px;
+    padding: 5px;
+}
+
+.login {
+    position: absolute;
+    margin-left: 1250px;
+    font-size: 32px;
+    margin-top: 12px;
+    text-decoration: underline;
+}
+
+.sell {
+    position: absolute;
+    margin-left: 1340px;
+    margin-top: -15px;
+    width: 170px;
+    height: 80px;
+}
+
+
+/*Styling the Main Body */
+
+.main {
+    flex: 8;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    display: flex;
+    text-transform: capitalize;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+    font-size: x-large;
+}
+
+.footer {
+    flex: 1;
+    background-color: rgb(0, 136, 247);
+}
